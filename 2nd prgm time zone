@@ -1,0 +1,12 @@
+<?php
+    date_default_timezone_set('Asia/kolkata');
+    $t=(int) date('H');
+    if($t>=5 && $t<12)
+         echo "good morning";
+    else if ($t>=12 && $t<=16)
+         echo "good afternoon";
+     else if ($t>=16 && $t<=21)
+         echo "good evening";
+     else
+         echo "good night";
+?>
