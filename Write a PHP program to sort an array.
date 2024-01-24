@@ -1,0 +1,16 @@
+<?php
+$arr = [];
+$n = readline("Enter the number of element : ");
+for ($i = 0; $i < $n; $i++) {
+$ele= readline("Enter an element : ");
+array_push($arr, $ele);
+}
+echo "Original Array : \n";
+print_r($arr);
+echo "Ascending Order : \n ";
+sort($arr);
+print_r($arr);
+echo "Descending Order : \n";
+rsort($arr);
+print_r($arr);
+?>
